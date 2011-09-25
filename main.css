@@ -65,6 +65,7 @@ box-shadow:  5px 5px 5px #888;
 		width:500px;
 		margin:auto;
 		position:relative;
+		padding-left:200px;
 } 
 
 #links li{
@@ -74,11 +75,11 @@ box-shadow:  5px 5px 5px #888;
 #links a {
 margin-top:15px;
 margin-right:10px;
+width:100px;
+height:70px;
 }
 
 #links #wb a {
-width:70px;
-height:70px;
 background-image:url(images/wordpress.png);
 background-repeat:no-repeat;
 float:left;
@@ -92,7 +93,6 @@ float:left;
 }
 
 #links #fb a {
-height:70px;
 background-image:url(images/facebook.png);
 background-repeat:no-repeat;
 float:left;
@@ -100,15 +100,12 @@ text-indent:-9999px;
 }
 
 #links #fb a:hover {
-height:70px;
 background-image:url(images/facebook2.png);
 background-repeat:no-repeat;
 float:left;
 }
 
 #links #tw a {
-width:70px;
-height:70px;
 background-image:url(images/twitter.png);
 background-repeat:no-repeat;
 float:left;
@@ -116,8 +113,6 @@ text-indent:-9999px;
 }
 
 #links #tw a:hover {
-width:70px;
-height:70px;
 background-image:url(images/twitter2.png);
 background-repeat:no-repeat;
 float:left;
